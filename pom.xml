@@ -8,28 +8,8 @@
     <artifactId>java-fundamentals</artifactId>
     <version>1.0</version>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>8</source> <!--compiled from java8-->
-                    <target>8</target> <!--compiled to java8-->
-                </configuration>
-            </plugin>
-        </plugins>
-    </build>
-
-
-    <dependencies>
-        <dependency>
-            <groupId>junit</groupId>
-            <artifactId>junit</artifactId>
-            <version>4.12</version>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-
+<build>
+    <finalName>jenkins.docker.maven_java-fundamentals</finalName>
+</build>
 
 </project>
